@@ -1,9 +1,10 @@
 name: second work
 
-on: 
+on:
+  workflow_dispatch: 
   schedule:
-    - cron: "00 1 * * *"
-      workflow_dispatch
+    - cron: "10 1 * * *"
+  
 
 jobs:
   task:
