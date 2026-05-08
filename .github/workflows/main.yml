@@ -2,7 +2,7 @@ name: second work
 
 on: 
   schedule:
-    - cron: "55 19 * * *"
+    - cron: "00 1 * * *"
       workflow_dispatch
 
 jobs:
