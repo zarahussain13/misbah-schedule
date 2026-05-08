@@ -3,6 +3,7 @@ name: second work
 on: 
   schedule:
     - cron: "45 19 * * *"
+      workflow_dispatch
 
 jobs:
   task:
